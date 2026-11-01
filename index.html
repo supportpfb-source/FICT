@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FICT – Fatima InterOcean Container Terminal, Keamari Karachi</title>
+<meta name="description" content="FICT container yard in Keamari, Karachi. National and international container business. Call or WhatsApp 0322 2628746.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<style>
+:root{--navy:#0a1f33;--navy2:#13324d;--sand:#eeece6;--ink:#17212b;--mut:#5d6b78;--sig:#f2b705;--rust:#b4361b;--line:#d9d5cb}
+html{scroll-behavior:smooth}
+body{font:400 17px/1.6 'Barlow',sans-serif;color:var(--ink);background:#fff}
+h1,h2,h3,.disp{font-family:'Barlow Condensed',sans-serif;font-weight:700;line-height:1.02;letter-spacing:.01em}
+a:focus-visible,button:focus-visible{outline:3px solid var(--sig);outline-offset:2px}
+.glyphicon{top:2px}
+/* header */
+.hd{position:sticky;top:0;z-index:50;background:#fff;border-bottom:3px solid var(--sig);box-shadow:0 2px 12px rgba(10,31,51,.12)}
+.hd .container{display:flex;align-items:center;justify-content:space-between;height:78px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}.logo:hover{text-decoration:none}
+.logo img{height:62px;width:auto;display:block}
+.logo span{font:600 12px/1.25 'Barlow';letter-spacing:.1em;color:var(--navy);max-width:150px}
+.nv a{color:var(--navy);margin-left:26px;font-weight:500;text-decoration:none}.nv a:hover{color:var(--sig);text-decoration:none}
+.btn-s{background:var(--sig);color:var(--navy);font-weight:600;border-radius:2px;padding:9px 18px;border:0}.btn-s:hover{background:#ffcb2e;color:var(--navy)}
+.btn-w{background:#1fa855;color:#fff;font-weight:600;border-radius:2px;padding:9px 18px;border:0}.btn-w:hover{background:#188f48;color:#fff}
+.btn-o{background:transparent;color:#fff;border:2px solid #fff;font-weight:600;border-radius:2px;padding:7px 18px}.btn-o:hover{background:#fff;color:var(--navy)}
+/* hero */
+.hero{background:var(--navy);color:#fff;position:relative;overflow:hidden;padding:56px 0 110px;
+ background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:44px 44px}
+.hero h1{font-size:76px;font-weight:800;margin:10px 0 18px}
+.hero p.lead{font-size:20px;color:#bfd0e0;max-width:30em}
+.hero .cta .btn{margin:6px 10px 0 0;font-size:17px}
+.stage{height:360px;perspective:1000px;display:flex;align-items:center;justify-content:center;cursor:grab;touch-action:none;user-select:none}
+.stage:active{cursor:grabbing}
+.hint{text-align:center;color:#8ea6bc;font-size:14px}
+.cube{position:relative;width:320px;height:120px;transform-style:preserve-3d}
+.f{position:absolute;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-sizing:border-box;border:3px solid #6e2210;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;
+ background:repeating-linear-gradient(90deg,rgba(0,0,0,.22) 0 3px,rgba(255,255,255,.05) 3px 5px,transparent 5px 13px),var(--rust)}
+.fr,.bk{width:320px;height:120px}
+.fr{transform:translateZ(60px)}.bk{transform:rotateY(180deg) translateZ(60px)}
+.f b{font:800 46px/1 'Barlow Condensed';letter-spacing:.14em;text-shadow:0 2px 0 rgba(0,0,0,.35)}
+.f i{font:600 9px 'Barlow';letter-spacing:.2em;font-style:normal;margin-top:4px;opacity:.9}
+.rt,.lf{width:120px;height:120px;left:100px}
+.rt{transform:rotateY(90deg) translateZ(160px);background:linear-gradient(90deg,transparent 48%,rgba(0,0,0,.5) 48% 52%,transparent 52%),repeating-linear-gradient(90deg,rgba(0,0,0,.25) 0 4px,transparent 4px 20px),#9a2e16}
+.lf{transform:rotateY(-90deg) translateZ(160px);background:#9a2e16}
+.rt b,.lf b{font-size:30px}
+.tp,.bt{width:320px;height:120px;background:#8d2a14}
+.tp{transform:rotateX(90deg) translateZ(60px)}.bt{transform:rotateX(-90deg) translateZ(60px);background:#4a1709}
+/* contact strip */
+.strip{margin-top:-62px;position:relative;z-index:5}
+.strip .box{background:#fff;box-shadow:0 14px 40px rgba(10,31,51,.25);border-top:4px solid var(--sig);display:flex;flex-wrap:wrap}
+.strip .it{flex:1 1 260px;padding:24px 28px;border-right:1px solid var(--line)}.strip .it:last-child{border:0}
+.strip .k{color:var(--mut);font-size:14px;font-weight:600;margin-bottom:2px}
+.strip .v{font:700 26px/1.15 'Barlow Condensed';color:var(--navy)}.strip .v a{color:var(--navy);text-decoration:none}
+.strip .addr{font:500 17px/1.4 'Barlow'}
+/* sections */
+.sec{padding:84px 0}
+.sec h2{font-size:48px;color:var(--navy);margin:0 0 14px}
+.sec .intro{color:var(--mut);max-width:34em;font-size:18px}
+.rows{margin-top:38px;border-top:2px solid var(--navy)}
+.row2{display:flex;gap:28px;padding:26px 0;border-bottom:1px solid var(--line);align-items:flex-start}
+.row2 .glyphicon{font-size:26px;color:var(--rust);width:44px;flex:none;padding-top:4px}
+.row2 h3{font-size:28px;margin:0 0 6px;color:var(--navy)}.row2 p{margin:0;color:var(--mut);max-width:40em}
+/* handling */
+.dark{background:var(--navy);color:#fff}
+.dark h2{color:#fff}.dark .intro{color:#a9bdd0}
+.wrap{margin-top:34px;overflow:hidden;border:1px solid #27475f}
+.sc{position:relative;width:640px;height:300px;transform-origin:0 0;background:linear-gradient(#17405f,#2b6a8f 62%,#7fb0c9);overflow:hidden}
+.sea{position:absolute;left:0;right:0;top:196px;height:64px;background:#1b4d6e}
+.gr{position:absolute;left:0;right:0;bottom:0;height:40px;background:#4a5560;border-top:3px solid #333}
+.gr:after{content:"";position:absolute;left:0;right:0;top:16px;border-top:3px dashed var(--sig)}
+.leg{position:absolute;top:22px;bottom:40px;width:12px;background:var(--sig)}
+.rail{position:absolute;top:22px;left:12px;right:12px;height:10px;background:var(--sig);border-bottom:3px solid #b98a00}
+.tro{position:absolute;top:22px;width:50px;height:16px;margin-left:-25px;background:#e0a300;border:2px solid #7a5a00;box-sizing:border-box;transition:left var(--d) ease-in-out}.tro .op{margin-left:0}
+.cab{position:absolute;width:2px;margin-left:-1px;top:38px;background:#111;transition:left var(--d) ease-in-out,height var(--d) ease-in-out}
+.spr{position:absolute;width:96px;height:8px;margin-left:-48px;background:#222;border-bottom:3px solid #888;box-sizing:content-box;transition:left var(--d) ease-in-out,top var(--d) ease-in-out}
+.spr.on{background:#1fd067;box-shadow:0 0 10px #1fd067}
+.cg{position:absolute;width:90px;height:34px;margin-left:-45px;box-sizing:border-box;border:2px solid #6e2210;background:repeating-linear-gradient(90deg,rgba(0,0,0,.22) 0 2px,transparent 2px 7px),var(--rust);color:#fff;font:800 13px/30px 'Barlow Condensed';letter-spacing:.14em;text-align:center}
+.mv{transition:left var(--d) ease-in-out,top var(--d) ease-in-out}
+.tk{position:absolute;left:-166px;bottom:43px;width:112px;z-index:4;transition:left var(--d) ease-in-out}
+.tk .bed{position:absolute;left:0;width:112px;bottom:10px;height:6px;background:#222}
+.tk .cb{position:absolute;left:114px;bottom:10px;width:34px;height:30px;background:#e9edf1;border-radius:10px 3px 0 0;border-bottom:4px solid #2a6fb0}
+.tk .cb:after{content:"";position:absolute;right:5px;top:5px;width:12px;height:10px;background:#7fb0c9}
+.tk .w{position:absolute;bottom:0;width:16px;height:16px;border-radius:50%;background:#111;border:3px solid #999;box-sizing:border-box}
+.cg{z-index:5}.cg.st{z-index:1}
+.bth{position:absolute;left:238px;bottom:40px;width:62px;height:72px;background:#dfe5ea;border:2px solid #9aa8b4;z-index:2}
+.bth:before{content:"";position:absolute;left:-6px;right:-6px;top:-9px;height:10px;background:#13324d}
+.bth i{position:absolute;left:8px;top:14px;width:28px;height:20px;background:#7fb0c9;border:2px solid #556}
+.lt{position:absolute;right:7px;top:12px;width:14px;height:14px;border-radius:50%;background:#e03a2e;box-shadow:0 0 7px #e03a2e}.lt.g{background:#1fd067;box-shadow:0 0 9px #1fd067}
+.pole{position:absolute;left:180px;bottom:40px;width:8px;height:28px;background:#222;z-index:3}
+.arm{position:absolute;left:184px;bottom:64px;width:54px;height:6px;background:repeating-linear-gradient(90deg,#e03a2e 0 9px,#fff 9px 18px);transform-origin:0 50%;transition:transform .8s;z-index:3}.arm.up{transform:rotate(-80deg)}
+.gd{position:absolute;left:208px;bottom:42px;font-size:24px;z-index:3}
+.op{position:absolute;left:12px;top:-18px;width:26px;height:19px;background:#e0a300;border:2px solid #7a5a00;box-sizing:border-box;font-size:11px;line-height:14px;text-align:center}
+.bb{position:absolute;max-width:200px;background:#fff;color:var(--navy);font:600 13px/1.3 'Barlow';padding:6px 10px;border-radius:6px;opacity:0;transition:opacity .3s;z-index:9;box-shadow:0 2px 10px rgba(0,0,0,.35)}.bb.s{opacity:1}
+.idc{position:absolute;left:160px;top:200px;font-size:20px;opacity:0;transition:left 1s,top 1s,opacity .3s;z-index:6}
+.sl{list-style:none;margin:0;padding:0;counter-reset:s}
+.sl li{counter-increment:s;font-size:15.5px;line-height:1.35;padding:8px 0 8px 44px;position:relative;border-bottom:1px solid #27475f;color:#7f98ae;transition:color .3s}
+.sl li:before{content:counter(s);position:absolute;left:0;top:7px;width:28px;height:28px;border-radius:50%;border:2px solid #3a5a74;text-align:center;font:700 15px/24px 'Barlow Condensed'}
+.sl li.cur{color:#fff}.sl li.cur:before{background:var(--sig);border-color:var(--sig);color:var(--navy)}
+.sl li.done{color:#bcd0e1}.sl li.done:before{content:"\2713";border-color:#1fd067;color:#1fd067}
+.ctl{margin:22px 0 0}.ctl .btn{margin:0 10px 10px 0}
+/* contact */
+.ct dt{color:var(--mut);font-weight:600;font-size:14px;margin-top:20px}.ct dd{font-size:20px;margin:0}
+.ct .btn{margin:22px 10px 0 0}
+.map{width:100%;height:100%;min-height:360px;border:0;filter:grayscale(.25)}
+.flogo{background:#fff;display:inline-block;padding:8px 12px;border-radius:4px;margin-bottom:14px}.flogo img{height:64px;display:block}
+footer .dev{font-size:14px;display:inline-block;margin-top:10px;padding-top:10px;border-top:1px solid #1d3347}footer .dev a{color:var(--sig);text-decoration:none}footer .dev a:hover{text-decoration:underline}
+footer{background:#06141f;color:#8ea6bc;padding:30px 0;font-size:15px}footer b{color:#fff}
+.fab{position:fixed;right:16px;bottom:16px;z-index:60}
+.fab a{display:block;width:54px;height:54px;line-height:54px;text-align:center;border-radius:50%;color:#fff;font-size:22px;margin-top:10px;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.tr{list-style:none;padding:0;margin:26px 0 0;color:#cfdbe7;font-size:16px}.tr li{display:inline-block;margin:0 22px 8px 0}.tr .glyphicon{color:var(--sig)}
+.dn{display:none;margin-top:22px;padding:18px 22px;background:var(--sig);color:var(--navy);font-size:20px}.dn .btn{background:var(--navy);color:#fff;font-weight:600;border-radius:2px;margin-left:14px}
+.alt{background:var(--sand)}
+.bsec{background:var(--sand)}
+.how{padding:0;margin:26px 0;list-style:none;counter-reset:h}.how li{counter-increment:h;position:relative;padding:0 0 22px 56px}
+.how li:before{content:counter(h);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:var(--navy);color:var(--sig);font:700 22px/38px 'Barlow Condensed';text-align:center}
+.how li:not(:last-child):after{content:"";position:absolute;left:18px;top:42px;bottom:4px;border-left:2px dashed #b9b4a6}
+.how b{color:var(--navy)}.why{color:var(--navy);font-weight:600}
+.fm{background:#fff;padding:30px;border-top:5px solid var(--sig);box-shadow:0 14px 40px rgba(10,31,51,.14)}
+.fm label{font-weight:600;font-size:15px;color:var(--navy);margin:12px 0 4px}
+.fm .form-control{height:48px;border-radius:2px;border:1px solid #b8c2cc;box-shadow:none;font-size:17px}.fm textarea.form-control{height:auto}
+.fm .form-control:focus{border-color:var(--navy);box-shadow:0 0 0 3px rgba(242,183,5,.45)}
+.fm .btn{margin:22px 12px 0 0}.btn-o2{background:#fff;color:var(--navy);border:2px solid var(--navy);border-radius:2px;font-weight:600}.btn-o2:hover{background:var(--navy);color:#fff}
+.fm .note{color:var(--mut);font-size:14px;margin:14px 0 0}.err{color:#b4361b;font-weight:600;margin-top:14px;min-height:0}
+details{border-bottom:1px solid var(--line);padding:16px 0}summary{cursor:pointer;font:700 25px/1.2 'Barlow Condensed';color:var(--navy);list-style:none}
+summary::-webkit-details-marker{display:none}summary:after{content:"+";float:right;color:var(--rust)}details[open] summary:after{content:"\2212"}details p{margin:10px 0 0;color:var(--mut)}
+.mb{display:none}
+@media(max-width:991px){.hero h1{font-size:60px}.stage{height:300px;transform:scale(.85)}}
+@media(max-width:767px){body{padding-bottom:64px}.fab{display:none}.mb{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:70;box-shadow:0 -4px 14px rgba(0,0,0,.25)}.mb a{flex:1;text-align:center;padding:16px 4px;font-weight:600;color:#fff;text-decoration:none}.mb a:first-child{background:var(--sig);color:var(--navy);flex:1.4}.mb a:nth-child(2){background:#1fa855}.mb a:nth-child(3){background:var(--navy)}.fm{padding:20px}.tr li{display:block}.dn .btn{margin:10px 0 0}.nv,.logo span{display:none}.hd .container{height:70px}.logo img{height:52px}.hero{padding-top:36px}.hero h1{font-size:50px}.sec{padding:60px 0}.sec h2{font-size:38px}.strip .it{border-right:0;border-bottom:1px solid var(--line)}.row2{gap:14px}.stage{transform:scale(.7);height:260px;margin:-20px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hd"><div class="container">
+ <a class="logo" href="#top"><img src="logo-600.png" alt="FICT logo" width="68" height="66"><span>FATIMA INTEROCEAN CONTAINER TERMINAL</span></a>
+ <nav class="nv"><a href="#services">Services</a><a href="#handling">Safe handling</a><a href="#book">Book</a><a href="#contact">Contact</a></nav>
+ <a class="btn btn-s" href="tel:03222628746"><span class="glyphicon glyphicon-earphone"></span> 0322 2628746</a>
+</div></header>
+
+<section class="hero" id="top"><div class="container"><div class="row">
+ <div class="col-md-6">
+  <h1 class="disp">Container yard,<br>Keamari Karachi.</h1>
+  <p class="lead">Fatima InterOcean Container Terminal. National and international container business.</p>
+  <div class="cta"><a class="btn btn-s btn-lg" href="#book"><span class="glyphicon glyphicon-calendar"></span> Book a container</a>
+  <a class="btn btn-w" href="https://wa.me/923222628746" target="_blank" rel="noopener"><span class="glyphicon glyphicon-comment"></span> WhatsApp us</a>
+  <a class="btn btn-o" href="#handling">See how we handle containers</a></div>
+ </div>
+ <div class="col-md-6"><div class="stage" id="stage"><div class="cube" id="cube">
+  <div class="f fr"><b>FICT</b><i>FATIMA INTEROCEAN CONTAINER TERMINAL</i></div>
+  <div class="f bk"><b>FICT</b><i>FATIMA INTEROCEAN CONTAINER TERMINAL</i></div>
+  <div class="f rt"><b>FICT</b></div><div class="f lf"><b>FICT</b></div><div class="f tp"></div><div class="f bt"></div></div></div>
+  <div class="hint"><span class="glyphicon glyphicon-hand-up"></span> Drag to turn the container</div></div>
+</div></div></section>
+
+<div class="strip"><div class="container"><div class="box">
+ <div class="it"><div class="k">Call or WhatsApp</div><div class="v"><a href="tel:03222628746">0322 2628746</a></div></div>
+ <div class="it"><div class="k">Yard address</div><div class="addr">K28 Plot 4D, Hawksbay Road, Phase 11/A, Keamari, Karachi 54700</div></div>
+ <div class="it"><div class="k">Find us</div><div class="v"><a href="https://maps.app.goo.gl/R6y9zoNwjL5FEjox9" target="_blank" rel="noopener">Open in Google Maps</a></div></div>
+</div></div></div>
+
+<section class="sec" id="services"><div class="container">
+ <h2 class="disp">Services</h2>
+ <div class="rows">
+  <div class="row2"><span class="glyphicon glyphicon-globe"></span><div><h3>International container business</h3><p>Import and export containers.</p></div></div>
+  <div class="row2"><span class="glyphicon glyphicon-road"></span><div><h3>National container business</h3><p>Container supply, storage and movement inside Pakistan.</p></div></div>
+  <div class="row2"><span class="glyphicon glyphicon-lock"></span><div><h3>Secure yard storage</h3><p>Checked in, sealed, stacked and recorded.</p></div></div>
+ </div>
+</div></section>
+
+<section class="sec dark" id="handling"><div class="container">
+ <h2 class="disp">Safe and secure loading and unloading</h2>
+ <p class="intro">How every container is handled, from the gate check to the lift.</p>
+ <div class="row" style="margin-top:6px">
+  <div class="col-md-8"><div class="wrap" id="wrap"><div class="sc" id="sc">
+   <div class="sea"></div><div class="gr"></div><div class="leg" style="left:10px"></div><div class="leg" style="right:10px"></div><div class="rail"></div>
+   <div class="tro" id="tro"><div class="op" title="Lift operator">👷</div></div><div class="cab" id="cab"></div><div class="spr" id="spr"></div>
+   <div class="bth"><i></i><span class="lt" id="lt"></span></div><div class="pole"></div><div class="arm" id="arm"></div><div class="gd" title="Security guard">👮</div>
+   <div class="cg st" style="left:540px;top:226px;background-color:#1f5f8b;border-color:#0e3550">TRANS</div>
+   <div class="tk" id="tk"><div class="cb"></div><div class="bed"></div><div class="w" style="left:6px"></div><div class="w" style="left:30px"></div><div class="w" style="left:120px"></div></div>
+   <div class="cg mv" id="cg" style="left:-166px;top:214px">FICT</div>
+   <div class="idc" id="idc">🪪</div>
+   <div class="bb" id="bg" style="left:96px;top:128px"></div><div class="bb" id="bo" style="left:352px;top:46px"></div>
+  </div></div></div>
+  <div class="col-md-4"><ol class="sl" id="sl">
+   <li>Truck arrives at the yard gate</li>
+   <li>Guard asks for the driver ID and papers</li>
+   <li>ID, booking and container seal are checked</li>
+   <li>Approved: the barrier opens</li>
+   <li>Truck drives to the lifting bay</li>
+   <li>Guard clears the area and gives the operator the go-ahead</li>
+   <li>Operator confirms and lowers the spreader</li>
+   <li>Twist-locks engaged and confirmed</li>
+   <li>Slow lift with nobody under the load</li>
+   <li>Controlled move across the yard</li>
+   <li>Gentle placement on level ground or truck bed</li>
+   <li>Twist-locks released, container logged</li>
+   <li>Truck leaves and the gate closes</li></ol></div>
+ </div>
+ <div class="ctl"><button class="btn btn-s" id="bUn"><span class="glyphicon glyphicon-save"></span> Unloading demo: truck brings a container</button>
+ <button class="btn btn-o" id="bLd"><span class="glyphicon glyphicon-open"></span> Loading demo: truck takes a container</button></div>
+<div class="dn" id="done"><b>Ready to bring your container?</b> <a class="btn" href="#book">Book your slot</a></div>
+</div></section>
+
+<section class="sec bsec" id="book"><div class="container"><div class="row">
+ <div class="col-md-5">
+  <h2 class="disp">Book your container</h2>
+  <ol class="how">
+   <li><b>Send your request</b> with the form, or call 0322 2628746.</li>
+   <li><b>We confirm</b> availability before the truck moves.</li>
+   <li><b>Arrive at the gate</b> with the driver ID and booking papers.</li></ol>
+ </div>
+ <div class="col-md-7"><form class="fm" id="bkf" novalidate>
+  <div class="row">
+   <div class="col-sm-6"><label for="n">Your name *</label><input id="n" class="form-control" autocomplete="name" required></div>
+   <div class="col-sm-6"><label for="p">Phone / WhatsApp *</label><input id="p" class="form-control" type="tel" inputmode="tel" autocomplete="tel" placeholder="03xx xxxxxxx" required></div>
+   <div class="col-sm-6"><label for="j">I need</label><select id="j" class="form-control"><option>Unloading a container</option><option>Loading a container</option><option>Container storage in the yard</option><option>Container supply</option><option>Something else</option></select></div>
+   <div class="col-sm-6"><label for="b">Business type</label><select id="b" class="form-control"><option>National</option><option>International</option></select></div>
+   <div class="col-sm-6"><label for="z">Container size</label><select id="z" class="form-control"><option>20 ft</option><option>40 ft</option><option>Not sure</option></select></div>
+   <div class="col-sm-6"><label for="d">Expected date</label><input id="d" class="form-control" type="date"></div>
+   <div class="col-xs-12"><label for="m">Details (optional)</label><textarea id="m" class="form-control" rows="3" placeholder="Number of containers, shipping line, anything we should know"></textarea></div>
+  </div>
+  <div class="err" id="er" role="alert"></div>
+  <button class="btn btn-w btn-lg" type="submit"><span class="glyphicon glyphicon-comment"></span> Send booking on WhatsApp</button>
+  <a class="btn btn-o2 btn-lg" href="tel:03222628746"><span class="glyphicon glyphicon-earphone"></span> Call instead</a>
+  <p class="note">This opens WhatsApp with your details filled in. Nothing is booked until we confirm.</p>
+ </form></div>
+</div></div></section>
+
+<section class="sec" id="contact"><div class="container">
+ <h2 class="disp">Find us</h2>
+ <iframe class="map" title="FICT yard location" loading="lazy" style="min-height:380px;margin-top:18px" src="https://maps.google.com/maps?q=K28%20Plot%204D%20Trance%20Liyari%20Hawksbay%20Road%20Keamari%20Karachi&output=embed"></iframe>
+</div></section>
+
+<footer><div class="container"><a class="flogo" href="#top"><img src="logo-600.png" alt="FICT logo"></a><br><b>FICT – Fatima InterOcean Container Terminal</b> · <a href="tel:03222628746">0322 2628746</a><br>© <span id="yr"></span> FICT<br><span class="dev">Website developed by <a href="https://supportpfb-source.github.io/Jiskani-Solutions/" target="_blank" rel="noopener">Muhammad Asim Raza</a></span></div></footer>
+<div class="mb"><a href="#book">Book now</a><a href="https://wa.me/923222628746" target="_blank" rel="noopener">WhatsApp</a><a href="tel:03222628746">Call</a></div>
+<div class="fab"><a href="https://wa.me/923222628746" target="_blank" rel="noopener" style="background:#1fa855" aria-label="WhatsApp"><span class="glyphicon glyphicon-comment"></span></a><a href="tel:03222628746" style="background:#f2b705;color:#0a1f33" aria-label="Call"><span class="glyphicon glyphicon-earphone"></span></a></div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+(function(){ // drag-to-rotate container
+ var c=document.getElementById('cube'),s=document.getElementById('stage'),rx=-14,ry=-32,d=false,lx=0,ly=0,au=true;
+ function ap(){c.style.transform='rotateX('+rx+'deg) rotateY('+ry+'deg)'}
+ s.addEventListener('pointerdown',function(e){d=true;au=false;lx=e.clientX;ly=e.clientY;s.setPointerCapture(e.pointerId)});
+ s.addEventListener('pointermove',function(e){if(!d)return;ry+=(e.clientX-lx)*.6;rx=Math.max(-70,Math.min(70,rx-(e.clientY-ly)*.5));lx=e.clientX;ly=e.clientY;ap()});
+ s.addEventListener('pointerup',function(){d=false;setTimeout(function(){au=true},2500)});
+ var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+ (function t(){if(au&&!d&&!rm){ry+=.3;ap()}requestAnimationFrame(t)})();ap();
+})();
+(function(){ // gate + load / unload demo
+ var $=function(i){return document.getElementById(i)},tro=$('tro'),cab=$('cab'),spr=$('spr'),cg=$('cg'),tk=$('tk'),sc=$('sc'),wr=$('wrap'),lt=$('lt'),arm=$('arm'),idc=$('idc'),bg=$('bg'),bo=$('bo'),lis=$('sl').children,btn=[$('bUn'),$('bLd')],busy=false;
+ var ENTER=-110,GATE=80,BAY=330,YARD=540,EXIT=720,LU=60,LT=168,LY=148,TRUCK_TOP=214,STACK_TOP=194;
+ function fit(){var k=Math.min(1,wr.clientWidth/640);sc.style.transform='scale('+k+')';wr.style.height=(300*k)+'px'}
+ addEventListener('resize',fit);fit();
+ function crane(x,L,carry){tro.style.left=cab.style.left=spr.style.left=x+'px';cab.style.height=L+'px';spr.style.top=(38+L)+'px';if(carry){cg.style.left=x+'px';cg.style.top=(46+L)+'px'}}
+ function truck(c,withCargo,d){sc.style.setProperty('--d',d||'3s');tk.style.left=(c-56)+'px';if(withCargo){cg.style.left=c+'px';cg.style.top=TRUCK_TOP+'px'}}
+ function step(n){for(var i=0;i<lis.length;i++)lis[i].className=i<n?'done':(i==n?'cur':'')}
+ function say(el,t){el.textContent=t||'';el.className='bb'+(t?' s':'')}
+ function sleep(ms){return new Promise(function(r){setTimeout(r,ms)})}
+ async function run(m){
+  if(busy)return;busy=true;btn.forEach(function(b){b.disabled=true});
+  var un=m=='un',onTruck=un,a=un?BAY:YARD,b=un?YARD:BAY,La=un?LT:LY,Lb=un?LY:LT;
+  document.getElementById('done').style.display='none';say(bg);say(bo);lt.className='lt';arm.className='arm';idc.style.opacity=0;spr.className='spr';step(-1);
+  sc.style.setProperty('--d','0s');tk.style.left=(ENTER-56)+'px';cg.style.left=(un?ENTER:YARD)+'px';cg.style.top=(un?TRUCK_TOP:STACK_TOP)+'px';crane(BAY,LU,false);void cg.offsetWidth;await sleep(60);
+  step(0);truck(GATE,un);await sleep(3300);
+  step(1);say(bg,'Stop here, please. Show your driver ID and booking papers.');idc.style.opacity=1;await sleep(900);idc.style.left='206px';idc.style.top='186px';await sleep(2200);
+  step(2);say(bg,'Checking ID, vehicle and container seal against the booking…');await sleep(2800);
+  step(3);say(bg,'Everything matches. Approved. Opening the gate.');lt.className='lt g';arm.className='arm up';idc.style.opacity=0;await sleep(2200);
+  step(4);say(bg);truck(BAY,un);await sleep(3300);arm.className='arm';lt.className='lt';
+  step(5);say(bg,'Lift operator, truck is in the bay and the area is clear. Go ahead.');await sleep(2600);say(bo,'Copy that. Starting the lift now.');await sleep(2000);say(bg);say(bo);
+  sc.style.setProperty('--d','1.8s');
+  step(6);crane(a,La,false);await sleep(2000);
+  step(7);spr.className='spr on';await sleep(1700);
+  step(8);crane(a,LU,true);await sleep(2000);
+  step(9);crane(b,LU,true);await sleep(2200);
+  step(10);crane(b,Lb,true);await sleep(2200);
+  step(11);spr.className='spr';say(bg,'Container logged. Gate pass issued.');await sleep(2000);crane(b,LU,false);await sleep(1800);say(bg);
+  onTruck=!un;
+  step(12);truck(EXIT,onTruck);await sleep(3300);
+  step(13);document.getElementById('done').style.display='block';btn.forEach(function(x){x.disabled=false});busy=false;
+ }
+ btn[0].onclick=function(){run('un')};btn[1].onclick=function(){run('ld')};
+ sc.style.setProperty('--d','1.8s');crane(BAY,LU,false);
+})();
+(function(){var f=document.getElementById('bkf'),d=document.getElementById('d'),er=document.getElementById('er');d.min=new Date().toISOString().slice(0,10);
+ f.addEventListener('submit',function(e){e.preventDefault();var v=function(i){return document.getElementById(i).value.trim()},n=v('n'),p=v('p');
+  if(!n||p.replace(/\D/g,'').length<10){er.textContent=!n?'Please enter your name.':'Please enter a valid phone number.';return}er.textContent='';
+  var t='New booking request - FICT\nName: '+n+'\nPhone: '+p+'\nNeed: '+v('j')+'\nBusiness: '+v('b')+'\nContainer size: '+v('z')+(v('d')?'\nExpected date: '+v('d'):'')+(v('m')?'\nDetails: '+v('m'):'');
+  var u='https://wa.me/923222628746?text='+encodeURIComponent(t);if(!window.open(u,'_blank'))location.href=u});})();
+</script>
+</body>
+</html>
